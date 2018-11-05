@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+    <TextView
+        android:text="下一步"
+        android:textStyle="bold"
+        android:paddingBottom="14dp"
+        android:paddingTop="12dp"
+        android:paddingLeft="27dp"
+        android:paddingRight="27dp"
+        android:background="@drawable/bg_corner_no_fill_white"
+        android:id="@+id/next"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+
+</LinearLayout>

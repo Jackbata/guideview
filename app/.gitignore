@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+*.iml
+paxapp5.0.iml
+app/app.iml
+/app/build/
+/build/generated
+/build/intermediates
+/app/src/main/java/com/ichinait/gbpassenger/db/greendao
