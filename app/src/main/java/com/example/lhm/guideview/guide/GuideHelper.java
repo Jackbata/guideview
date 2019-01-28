@@ -40,6 +40,8 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.RelativeLayout;
 
+import com.example.lhm.guideview.R;
+
 import java.util.LinkedList;
 
 public class GuideHelper {
@@ -125,8 +127,7 @@ public class GuideHelper {
 
         //创建dialog
         mLayout = new InnerChildRelativeLayout(mActivity);
-        mBaseDialog = new Dialog(mActivity, android.R.style.Theme_DeviceDefault_Light_DialogWhenLarge_NoActionBar);
-        mBaseDialog.getWindow().setBackgroundDrawable(new ColorDrawable(0x99000000));
+        mBaseDialog = new Dialog(mActivity, R.style.custom_bottom_dialog);
 
         //设置沉浸式状态栏
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {

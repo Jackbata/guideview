@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="custom_bottom_dialog" parent="@android:style/Theme.Dialog">
+    <!--Dialog的windowFrame框为无-->
+    <item name="android:windowFrame">@null</item>
+    <!--是否显示title-->
+    <item name="android:windowNoTitle">true</item>
+    <!--是否浮现在activity之上-->
+    <item name="android:windowIsFloating">true</item>
+    <!--是否半透明-->
+    <item name="android:windowIsTranslucent">true</item>
+    <!--是否有覆盖-->
+    <item name="android:windowContentOverlay">@null</item>
+    <!--dialog的背景是否昏暗-->
+    <item name="android:backgroundDimEnabled">true</item>
+    <!--窗口背景色-->
+    <item name="android:windowBackground">@color/vtran</item>
+    </style>
 </resources>
